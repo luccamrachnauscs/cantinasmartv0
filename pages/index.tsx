@@ -1,9 +1,12 @@
-import { Button, Group } from "@mantine/core";
+import React from 'react';
+import { NavbarSimpleColored } from './NavbarSimpleColored';
 
-export default function IndexPage() {
+function NavbarPage() {
   return (
-    <Group mt={50} justify="center">
-      <Button size="xl">Welcome to Mantine!</Button>
-    </Group>
+    <div>
+      <NavbarSimpleColored />
+    </div>
   );
 }
+
+export default NavbarPage;
