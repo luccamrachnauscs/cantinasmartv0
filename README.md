@@ -1,5 +1,7 @@
-# Mantine Next Template
+Versão inicial do projeto
 
-Get started with the template by clicking `Use this template` button on the top of the page.
+Iniciada em 12/04/2024
 
-[Documentation](https://mantine.dev/guides/next/)
+Primeira adição: Barra de navegação lateral feita com o framework Mantine
+
+Que deus tenha misericórdia do grupo
