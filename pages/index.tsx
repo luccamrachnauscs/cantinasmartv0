@@ -1,9 +1,18 @@
-import { Button, Group } from "@mantine/core";
+import React from 'react';
+import { NavbarSimpleColored } from './NavbarSimpleColored';
+import { ButtonCantinas } from './CadastroCantina';
 
-export default function IndexPage() {
+function cadastroCantinaInicio() {
   return (
-    <Group mt={50} justify="center">
-      <Button size="xl">Welcome to Mantine!</Button>
-    </Group>
+    <><div className='container-principal'>
+        <div>
+          <NavbarSimpleColored /> 
+        </div>
+        <div className='container-central'>
+          <ButtonCantinas />
+        </div>
+      </div></>
   );
 }
+
+export default cadastroCantinaInicio;
